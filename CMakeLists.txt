@@ -8,11 +8,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory(src)
 
-find_package(Catch2)
-if(Catch2_FOUND)
-    enable_testing()
-    add_subdirectory(tests)
-endif()
+add_subdirectory(extern/Catch2)
 
-
-
+enable_testing()
+add_subdirectory(tests)
