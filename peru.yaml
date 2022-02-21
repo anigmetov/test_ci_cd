@@ -1,0 +1,6 @@
+imports:
+    Catch2: ./extern/Catch2
+
+git module Catch2:
+    url: git://github.com/catchorg/Catch2.git
+    rev: 72f037266415fee521adc598bd324fea8001cd77
