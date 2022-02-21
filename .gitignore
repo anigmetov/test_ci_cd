@@ -2,4 +2,3 @@
 *.swp
 build/
 .peru
-extern/
